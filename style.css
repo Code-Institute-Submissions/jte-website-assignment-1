@@ -49,14 +49,15 @@ hr {
 
 #first-sec {
     margin-top: 10px;
-    background-color: #21FFF9;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*background-color: #21FFF9;*/
     border-radius:50px;
 }
 
 .numbers {
     margin-top: 40px;
     text-align: center;
-    background-color:#FA87D3 ;
 }
 
 article {
@@ -75,11 +76,6 @@ span {
     border-radius: 50px;
 }
 
-.carousel-item {
-    width:50%;
-    height:50%;
-}
-
 .d-block.w-100 {
     border-radius: 50px;
 }
@@ -88,19 +84,6 @@ video {
     padding: 20px;
 }
 
-/*.video-foot {*/
-/*    background-color: rgba(204,163,82,0.75);*/
-/*    border-radius: 400px 50px 50px 50px;*/
-/*}*/
-
-/*.between-join-foot {*/
-/*    border: 1px solid #FFFFFF;*/
-/*    width: 75%;*/
-/*}*/
-
-
-
-
 .footer {
     background-image: url("images/contact-us.png");
     background-position: 90% 50%;
@@ -108,8 +91,3 @@ video {
     background-size: contain;
     min-height: 100%;
 }
-
-/*.d-md-flex.flex-row.p-3 {*/
-/*    background-color: rgba(255,255,255,0.8);*/
-/*    border-radius: 80px;*/
-/*}    */
