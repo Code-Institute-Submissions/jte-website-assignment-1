@@ -1,5 +1,27 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    color:grey;
+}
+
+a:hover {
+    color: #21FFF9;
+    text-decoration:none;
+}
+
+.sr-only {
+    color:#cca352;
+}
+
 .container-fluid {
     padding: 0;
+}
+
+.navbar {
+    border-radius: 30px;
 }
 
 #jtelogo {
@@ -27,13 +49,67 @@ hr {
 
 #first-sec {
     margin-top: 10px;
+    background-color: #21FFF9;
+    border-radius:50px;
+}
+
+.numbers {
+    margin-top: 40px;
+    text-align: center;
+    background-color:#FA87D3 ;
 }
 
 article {
     padding-right: 25px;
 }
 
+span {
+    color: #cca352;
+}
+
 .img3 {
     min-width: 50%;
-    height: 1000px;
 }
+
+.img-fluid.sec-img {
+    border-radius: 50px;
+}
+
+.carousel-item {
+    width:50%;
+    height:50%;
+}
+
+.d-block.w-100 {
+    border-radius: 50px;
+}
+
+video {
+    padding: 20px;
+}
+
+/*.video-foot {*/
+/*    background-color: rgba(204,163,82,0.75);*/
+/*    border-radius: 400px 50px 50px 50px;*/
+/*}*/
+
+/*.between-join-foot {*/
+/*    border: 1px solid #FFFFFF;*/
+/*    width: 75%;*/
+/*}*/
+
+
+
+
+.footer {
+    background-image: url("images/contact-us.png");
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100%;
+}
+
+/*.d-md-flex.flex-row.p-3 {*/
+/*    background-color: rgba(255,255,255,0.8);*/
+/*    border-radius: 80px;*/
+/*}    */
