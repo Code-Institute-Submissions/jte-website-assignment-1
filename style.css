@@ -3,8 +3,18 @@ body, html {
     height: 100%;
 }
 
+.jtelogo {
+    width:25%;
+}
+
+p {
+    margin-top: auto;
+    margin-left: 5%;
+    text-decoration: none;
+}
+
 a {
-    color:grey;
+    color:#f76ce2;
 }
 
 a:hover {
@@ -20,13 +30,13 @@ a:hover {
     padding: 0;
 }
 
-.navbar {
-    border-radius: 30px;
-}
+/*.navbar {*/
+/*    border-radius: 30px;*/
+/*}*/
 
-#jtelogo {
-    width: 200px;
-}
+/*#jtelogo {*/
+/*    width: 200px;*/
+/*}*/
 
 #navbarTogglerDemo01 {
     text-align: center;
