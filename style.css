@@ -3,12 +3,16 @@ body, html {
     height: 100%;
 }
 
+.ndiv {
+    width: 25%;
+}
+
 .jtelogo {
     width:25%;
 }
 
-p {
-    margin-top: auto;
+.nlink {
+    margin-top: 5%;
     margin-left: 5%;
     text-decoration: none;
 }
@@ -28,18 +32,6 @@ a:hover {
 
 .container-fluid {
     padding: 0;
-}
-
-/*.navbar {*/
-/*    border-radius: 30px;*/
-/*}*/
-
-/*#jtelogo {*/
-/*    width: 200px;*/
-/*}*/
-
-#navbarTogglerDemo01 {
-    text-align: center;
 }
 
 #bg-img {
