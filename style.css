@@ -3,11 +3,22 @@ body, html {
     height: 100%;
 }
 
+/*body {*/
+/*    font-family: 'Just Another Hand', cursive;*/
+/*    font-size:32px;*/
+    
+/*}*/
+
+p {
+    padding:0;
+}
+
+
 .container-fluid {
     padding: 0;
 }
 
-/* Start of nav CSS */
+/* Start of navbar CSS */
 .ndiv {
     width: 25%;
 }
@@ -32,10 +43,9 @@ a:hover {
     color: #21FFF9;
     text-decoration:none;
 }
+/* End of navbar CSS */
 
-/* End of nav CSS */
 /* Start of Employer & Jobseeker CSS*/
-
 #first-part {
     /*position: fixed;*/
 }
@@ -43,9 +53,18 @@ a:hover {
 .align-self-center.p-3 {
     text-align: center;
 }
-
 /* End of Employer & Jobseeker CSS*/
 
+/* Start of Introduction of JTE Recruit, information and brief details */
+#first-sec {
+    /*background-image: url("images/purplebg.jpg");*/
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Start of Introduction of JTE Recruit, information and brief details */
 
 h1 {
     text-align: center;
