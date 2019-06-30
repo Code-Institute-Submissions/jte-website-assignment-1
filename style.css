@@ -3,6 +3,10 @@ body, html {
     height: 100%;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 .ndiv {
     width: 25%;
 }
@@ -12,7 +16,6 @@ body, html {
 }
 
 .nlink {
-    margin-top: 5%;
     margin-left: 5%;
     text-decoration: none;
 }
@@ -26,18 +29,12 @@ a:hover {
     text-decoration:none;
 }
 
-.sr-only {
-    color:#cca352;
+.d-md-flex.p-5.employer {
+    padding-right: 0;
 }
 
-.container-fluid {
-    padding: 0;
-}
-
-#bg-img {
-    /*display: flex;*/
-    margin-left: 15px;
-    margin-right: 15px;
+.align-self-center.p-3 {
+    text-align: center;
 }
 
 h1 {
@@ -86,10 +83,41 @@ video {
     padding: 20px;
 }
 
+
+#footlinkspace2 {
+    margin-left:15%;
+}
+
+#fb:hover {
+    color:blue;
+}
+
+#linkedin:hover {
+    color:blue;
+}
+
+#insta:hover {
+    color:purple;
+}
+
+#fb {
+    color:black;
+}
+
+#linkedin {
+    color:black;
+}
+
+#insta {
+    color:black;
+}
+
+
+
 .footer {
-    background-image: url("images/contact-us.png");
-    background-position: 90% 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 100%;
+    background-image: url("images/call-us.jpg");
+/*    background-position: 90% 50%;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: contain;*/
+/*    min-height: 100%;*/
 }
