@@ -7,6 +7,7 @@ body, html {
     padding: 0;
 }
 
+/* Start of nav CSS */
 .ndiv {
     width: 25%;
 }
@@ -32,13 +33,19 @@ a:hover {
     text-decoration:none;
 }
 
-.d-md-flex.p-5.employer {
-    padding-right: 0;
+/* End of nav CSS */
+/* Start of Employer & Jobseeker CSS*/
+
+#first-part {
+    /*position: fixed;*/
 }
 
 .align-self-center.p-3 {
     text-align: center;
 }
+
+/* End of Employer & Jobseeker CSS*/
+
 
 h1 {
     text-align: center;
