@@ -1,6 +1,8 @@
 body, html {
     width: 100%;
     height: 100%;
+    padding:0;
+    margin:0;
 }
 
 .container-fluid {
@@ -83,13 +85,13 @@ span {
     color: #cca352;
 }
 
-.img-fluid.ind-icon {
+.ind-icon {
     width:100px;
     height:100px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-left:3%;
+    margin-right:3%;
+    margin-top:2%;
+    margin-bottom:2%;
 }
 
 .img3 {
