@@ -74,12 +74,22 @@ hr {
     text-align: center;
 }
 
+
 article {
     padding-right: 25px;
 }
 
 span {
     color: #cca352;
+}
+
+.img-fluid.ind-icon {
+    width:100px;
+    height:100px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+    margin-bottom:5%;
 }
 
 .img3 {
