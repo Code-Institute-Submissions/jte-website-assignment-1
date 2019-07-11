@@ -11,6 +11,7 @@ body, html {
 
 /* Start of navbar CSS */
 
+
 .nav-link {
     color:#cca352!important;
 }
@@ -23,9 +24,9 @@ a:active.nav-link {
   color: #ff99ff!important;
 } 
 
-.jtelogo {
-    width:35%;
-}
+/*.jtelogo {*/
+/*    width:35%;*/
+/*}*/
 
 .navbar-nav {
     text-align: center;
