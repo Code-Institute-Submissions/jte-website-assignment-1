@@ -7,6 +7,7 @@ body, html {
 
 .container-fluid {
     padding: 0;
+    margin:0;
 }
 
 /* Start of navbar CSS */
@@ -24,16 +25,20 @@ a:active.nav-link {
   color: #ff99ff!important;
 } 
 
-/*.jtelogo {*/
-/*    width:35%;*/
-/*}*/
-
 .navbar-nav {
     text-align: center;
 }
 
 /* End of navbar CSS */
 
+@media (min-width: 768px) {
+   
+/*This is for JTE logo*/
+    .img-fluid {
+    max-width: 40%;
+    height: auto;
+    }
+}
 
 /* Start of Employer & Jobseeker CSS*/
 
@@ -51,6 +56,16 @@ a:active.nav-link {
 
 .align-self-center.p-3 {
     text-align: center;
+}
+
+.img-fluid-employer {
+    width:100%;
+    height:100%;
+}
+
+.img-fluid-employee {
+    width:100%;
+    height:100%;
 }
 
 /* End of Employer & Jobseeker CSS*/
@@ -77,14 +92,25 @@ hr {
     text-align: center;
 }
 
-
-article {
-    padding-right: 25px;
+#services-sec {
+    margin-right:1%;
+    margin: 2%;
 }
 
 span {
     color: #cca352;
 }
+
+#accordion-id {
+    margin-left: 1%;
+    width:50%;
+}
+
+#services-text {
+    margin-right:1%;
+    width:50%;
+}
+
 
 .ind-icon {
     width:100px;
