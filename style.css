@@ -19,6 +19,21 @@ body, html {
     background-color:white;
 }
 
+/**/
+@media (max-width: 768px) {
+    #first-part {
+        padding-top:20%;
+    }
+}
+
+@media (min-width: 768px) {
+    #first-part {
+        padding-top:10%;
+    }
+}
+
+
+
 .nav-link {
     color:#cca352!important;
 }
@@ -47,13 +62,6 @@ a:active.nav-link {
 }
 
 /* Start of Employer & Jobseeker CSS*/
-
-@media (max-width: 768px) {
-    
-    #first-part {
-        padding-top:10%;
-    }
-}
 
 .btn-info {
     color:black;
