@@ -10,8 +10,14 @@ body, html {
     margin:0;
 }
 
+
 /* Start of navbar CSS */
 
+.navbar {
+    position:fixed;
+    z-index:1030;
+    background-color:white;
+}
 
 .nav-link {
     color:#cca352!important;
@@ -42,6 +48,13 @@ a:active.nav-link {
 
 /* Start of Employer & Jobseeker CSS*/
 
+@media (max-width: 768px) {
+    
+    #first-part {
+        padding-top:10%;
+    }
+}
+
 .btn-info {
     color:black;
     background-color:#21FFF9;
@@ -71,6 +84,7 @@ a:active.nav-link {
 /* End of Employer & Jobseeker CSS*/
 
 /* Start of Introduction of JTE Recruit, information and brief details */
+
 
 
 /* End of Introduction of JTE Recruit, information and brief details */
