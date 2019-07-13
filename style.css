@@ -13,13 +13,22 @@ body, html {
 
 /* Start of navbar CSS */
 
+/*This is for JTE logo*/
+@media (min-width: 768px) {
+    .img-fluid {
+    max-width: 40%;
+    height: auto;
+    }
+}
+
+
 .navbar {
     position:fixed;
     z-index:1030;
     background-color:white;
 }
 
-/**/
+/* This is the part below nav, to ensure it will show */
 @media (max-width: 768px) {
     #first-part {
         padding-top:20%;
@@ -32,6 +41,7 @@ body, html {
     }
 }
 
+/* This is the end for this styling */
 
 
 .nav-link {
@@ -52,14 +62,6 @@ a:active.nav-link {
 
 /* End of navbar CSS */
 
-@media (min-width: 768px) {
-   
-/*This is for JTE logo*/
-    .img-fluid {
-    max-width: 40%;
-    height: auto;
-    }
-}
 
 /* Start of Employer & Jobseeker CSS*/
 
