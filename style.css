@@ -67,14 +67,14 @@ a:active.nav-link {
 
 .btn-info {
     color:black;
-    background-color:#21FFF9;
+    background-color:rgb(33, 255, 249, 0.5);
     border-color:#21FFF9;
     border-radius:20px;
 }
 
 .btn-info:hover {
-    background-color:#ff99ff!important;
-    border-color:#ff99ff;
+    background-color:rgb(255, 153, 255, 0.5)!important;
+    border-color:rgb(255, 153, 255, 05);
 }
 
 .align-self-center.p-3 {
@@ -93,9 +93,18 @@ a:active.nav-link {
 
 /* End of Employer & Jobseeker CSS*/
 
+
 /* Start of Introduction of JTE Recruit, information and brief details */
 
+#first-sec {
+    background-color:rgb(33, 255, 249, 0.5);
+    border-radius:20%;
+    margin-top:10%;
+}
 
+.col h2 {
+    text-align: center;
+}
 
 /* End of Introduction of JTE Recruit, information and brief details */
 
