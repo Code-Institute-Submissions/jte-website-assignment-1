@@ -70,11 +70,13 @@ a:active.nav-link {
     background-color:rgb(33, 255, 249, 0.5);
     border-color:#21FFF9;
     border-radius:20px;
+    transition: transform .2s
 }
 
 .btn-info:hover {
     background-color:rgb(255, 153, 255, 0.5)!important;
     border-color:rgb(255, 153, 255, 05);
+    transform: scale(1.1);
 }
 
 .align-self-center.p-3 {
@@ -83,10 +85,10 @@ a:active.nav-link {
 
 .img2 {
     position:relative;
-    animation: mymove 1s forwards;
+    animation: employer-move 1s forwards;
 }
 
-@keyframes mymove {
+@keyframes employer-move {
         from {right: -100%;}
         to {right:1px}
     }
@@ -97,9 +99,20 @@ a:active.nav-link {
     animation-timing-function: ease;
 }
 
+.img1 {
+    position:relative;
+    animation: employee-move 1s forwards;
+}
+
+@keyframes employee-move {
+        from {left: -100%;}
+        to {left:1px}
+    }
+
 .img-fluid-employee {
     width:100%;
     height:100%;
+    animation-timing-function: ease;
 }
 
 /* End of Employer & Jobseeker CSS*/
