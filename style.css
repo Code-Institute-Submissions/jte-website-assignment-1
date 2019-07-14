@@ -67,15 +67,15 @@ a:active.nav-link {
 
 .btn-info {
     color:black;
-    background-color:rgb(33, 255, 249, 0.5);
-    border-color:#21FFF9;
+    background-color:rgb(33, 255, 249, 0.5); /* teal color */
+    border-color:rgb(33, 255, 249); /* teal color */
     border-radius:20px;
     transition: transform .2s
 }
 
 .btn-info:hover {
-    background-color:rgb(255, 153, 255, 0.5)!important;
-    border-color:rgb(255, 153, 255, 05);
+    background-color:rgb(255, 153, 255, 0.5)!important; /* purple color */
+    border-color:rgb(255, 153, 255); 
     transform: scale(1.1);
 }
 
@@ -116,6 +116,31 @@ a:active.nav-link {
 }
 
 /* End of Employer & Jobseeker CSS*/
+
+/* Start CSS for numbers */
+
+.numbers h2 {
+    animation: numbers 3s infinite;
+    animation-direction: alternate-reverse;
+    transition: transform .2s
+}
+
+@keyframes numbers {
+        from {color: rgb(33, 255, 249)}
+        to {color:rgb(255, 153, 255)}
+    }
+
+.numbers h2:hover {
+    transform: scale(2)
+}
+
+.numbers h2 {
+    animation-timing-function: ease;
+}
+
+
+
+/* End of CSS for numbers */
 
 
 /* Start of Introduction of JTE Recruit, information and brief details */
