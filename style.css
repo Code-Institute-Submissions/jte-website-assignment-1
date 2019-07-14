@@ -291,26 +291,37 @@ h1 {
 
 /* Start of  services-sec CSS */
 
-@media (min-width: 768px) {
-#services-text {
-    order:2;
-    }
-#accordion-id {
-    order:1;
+@media (max-width: 768px) {
+    #services-sec a {
+    visibility:hidden;
     }
 }
 
 @media (min-width: 768px) {
     
+    #services-text {
+    order:2;
+    }
+    #accordion-id {
+    order:1;
+    }
+    
     #accordion-id {
     margin-right: 1%;
     width:50%;
-}
+    }
 
     #services-text {
     margin-left:1%;
     width:50%;
-}
+    }
+
+    #services-sec a {
+    margin-left: 37%;
+    margin-right: 35%;
+    margin-top: 5%;
+    padding: 5%;
+    }
     
 }
 
@@ -329,11 +340,24 @@ span {
 .ind-icon {
     width:50px;
     height:50px;
-    margin-left:3%;
-    margin-right:3%;
-    margin-top:2%;
-    margin-bottom:2%;
+    /*position: relative;*/
+    margin-left: 5%;
+    margin-bottom: 5%;
+    transition: transform .2s;
 }
+
+.ind-icon:hover {
+    transform:scale(2);
+}
+
+
+/* End of ICON CSS */
+
+/* Start of Join Us CSS */
+
+
+
+/* End of Join Us CSS */
 
 .img3 {
     min-width: 50%;
