@@ -394,6 +394,10 @@ span {
     margin: 5%;
 }
 
+.video-div {
+    text-align:center;
+}
+
 
 /* End of Join Us CSS */
 
@@ -407,10 +411,6 @@ span {
 
 .d-block.w-100 {
     border-radius: 50px;
-}
-
-video {
-    padding: 20px;
 }
 
 
