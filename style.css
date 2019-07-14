@@ -24,26 +24,26 @@ body {
         height: auto;
         }
     }
-
-
-    .navbar {
-        position:fixed;
-        z-index:1030;
-        background-color:white;
-    }
-
-/* This is the part below nav, to ensure it will show */
+    
+    /* This is the part below nav, to ensure it will show */
     @media (max-width: 768px) {
         #first-part {
-            padding-top:20%;
+        padding-top:20%;
         }
     }
 
     @media (min-width: 768px) {
         #first-part {
-            padding-top:10%;
+        padding-top:10%;
         }
     }
+
+.navbar {
+    position:fixed;
+    z-index:1030;
+    background-color:white;
+    width: 100%;
+}
 
 /* This is the end for this styling */
 
@@ -163,7 +163,59 @@ a:active.nav-link {
     width: 100%;
     text-align: center;
 }
-.parrent{
+
+
+@media (max-width:768px)  {
+.parrent {
+    position: relative;
+    width: 29%;
+    background-color: #FFF;
+    padding: 10px;
+    border-top:7px solid #D2652D;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.child {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+   box-shadow: 2px 2px 20px gray;
+    top: -35px;
+   left: 41%;
+}
+.child  span {
+    position: absolute;
+    font-size: 75px;
+    top: -105%;
+    left:19%;
+    font-family:fantasy;
+    font-weight: bold;
+    color:#D2652D;
+}
+.child-two p:nth-of-type(1) {
+    line-height: 1.2;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.child-two h3{
+    color: #4A5866;
+    font-family:sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+.child-two p:nth-of-type(2) {
+    color:#CECECE;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+}
+
+@media (min-width: 768px) {
+    .parrent {
     float: left;
     position: relative;
     width: 29%;
@@ -207,8 +259,12 @@ a:active.nav-link {
 .child-two p:nth-of-type(2){
     color:#CECECE;
     margin-bottom: 30px;
-  text-transform: capitalize;
+    text-transform: capitalize;
 }
+    
+}
+
+
 
 
 
