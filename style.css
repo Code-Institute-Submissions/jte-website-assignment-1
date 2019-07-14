@@ -5,6 +5,10 @@ body, html {
     margin:0;
 }
 
+body {
+    font-size: .8rem;
+}
+
 .container-fluid {
     padding: 0;
     margin:0;
@@ -147,13 +151,17 @@ a:active.nav-link {
     border-radius:75% 0 75% 0;
 }
 
+#testi-title {
+    margin-top:5%;
+    margin-bottom:0;
+    text-align:center;
+}
 
 .main{
     overflow: hidden;
-    padding: 50px;
-    width: 1000px;
+    padding: 5%;
+    width: 100%;
     text-align: center;
-    margin: 10px auto;
 }
 .parrent{
     float: left;
@@ -178,7 +186,7 @@ a:active.nav-link {
 }
 .child  span{
     position: absolute;
-    font-size: 80px;
+    font-size: 75px;
     top: -105%;
     left:19%;
     font-family:fantasy;
@@ -186,7 +194,6 @@ a:active.nav-link {
     color:#D2652D;
 }
 .child-two p:nth-of-type(1){
-    color: #AFABC3;
     line-height: 1.2;
     padding: 0 20px;
     margin-bottom: 20px;
