@@ -121,6 +121,24 @@ a:active.nav-link {
 
 /* End of Employer & Jobseeker CSS*/
 
+/* Start of Introduction of JTE Recruit, information and brief details */
+
+h1 {
+    text-align: center;
+}
+
+#first-sec {
+    background-color:rgb(33, 255, 249, 0.5);
+    border-radius:20%;
+    margin-top:5%;
+}
+
+.col h2, h6 {
+    text-align: center;
+}
+
+/* End of Introduction of JTE Recruit, information and brief details */
+
 /* Start CSS for numbers */
 
 .numbers {
@@ -168,7 +186,6 @@ a:active.nav-link {
     width: 100%;
     text-align: center;
 }
-
 
 @media (max-width:768px)  {
 .parrent {
@@ -272,7 +289,7 @@ a:active.nav-link {
 /* End of testimonial CSS*/
 
 
-/* Start of Introduction of JTE Recruit, information and brief details */
+/* Start of  services-sec CSS */
 
 @media (min-width: 768px) {
 #services-text {
@@ -281,36 +298,6 @@ a:active.nav-link {
 #accordion-id {
     order:1;
     }
-}
-
-#first-sec {
-    background-color:rgb(33, 255, 249, 0.5);
-    border-radius:20%;
-    margin-top:5%;
-}
-
-.col h2, h6 {
-    text-align: center;
-}
-
-/* End of Introduction of JTE Recruit, information and brief details */
-
-h1 {
-    text-align: center;
-}
-
-hr {
-    border: 1px solid #cca352;
-    width: 75%;
-}
-
-#services-sec {
-    margin-right:1%;
-    margin: 2%;
-}
-
-span {
-    color: #cca352;
 }
 
 @media (min-width: 768px) {
@@ -327,6 +314,17 @@ span {
     
 }
 
+#services-sec {
+    margin: 5%;
+}
+
+span {
+    color: #cca352;
+}
+
+/* End of services-sec CSS */
+
+/* Start of ICON CSS */
 
 .ind-icon {
     width:50px;
