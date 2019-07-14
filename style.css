@@ -81,22 +81,20 @@ a:active.nav-link {
     text-align: center;
 }
 
-#employer {
-    position:relative;
-}
-
 .img2 {
-    animation-timing-function: ease;
+    position:relative;
+    animation: mymove 1s forwards;
 }
 
-/*@keyframes mymove {*/
-/*  from {left: 0px;}*/
-/*  to {left: 300px;}*/
-/*}*/
+@keyframes mymove {
+        from {right: -100%;}
+        to {right:1px}
+    }
 
 .img-fluid-employer {
     width:100%;
     height:100%;
+    animation-timing-function: ease;
 }
 
 .img-fluid-employee {
