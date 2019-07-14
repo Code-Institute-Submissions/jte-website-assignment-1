@@ -18,9 +18,17 @@ body {
 /* Start of navbar CSS */
 
     /*This is for JTE logo*/
+    @media (max-width: 768px) {
+        .img-fluid {
+        max-width: 50%!important;
+        height: auto;
+        }
+    }
+    
+    
     @media (min-width: 768px) {
         .img-fluid {
-        max-width: 40%;
+        max-width: 35%;
         height: auto;
         }
     }
@@ -28,13 +36,13 @@ body {
     /* This is the part below nav, to ensure it will show */
     @media (max-width: 768px) {
         #first-part {
-        padding-top:20%;
+        padding-top:15%;
         }
     }
 
     @media (min-width: 768px) {
         #first-part {
-        padding-top:10%;
+        padding-top: 10%;
         }
     }
 
@@ -378,6 +386,13 @@ span {
 
 /* Start of Join Us CSS */
 
+.join-us h1 {
+    color: rgb(204, 163, 82);
+}
+
+.join-us {
+    margin: 5%;
+}
 
 
 /* End of Join Us CSS */
