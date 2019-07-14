@@ -123,6 +123,11 @@ a:active.nav-link {
 
 /* Start CSS for numbers */
 
+.numbers {
+    margin-top: 40px;
+    text-align: center;
+}
+
 .numbers h2 {
     animation: numbers 3s infinite;
     animation-direction: alternate-reverse;
@@ -173,6 +178,7 @@ a:active.nav-link {
     border-top:7px solid rgb(204, 163, 82);
     border-radius: 6px;
     margin-left: 20px;
+    margin-bottom: 5%;
 }
 .child {
     position: relative;
@@ -181,9 +187,9 @@ a:active.nav-link {
     background-color: white;
     border-radius: 50%;
     text-align: center;
-   box-shadow: 2px 2px 20px gray;
+    box-shadow: 2px 2px 20px gray;
     top: -35px;
-   left: 41%;
+    left: 41%;
 }
 .child  span {
     position: absolute;
@@ -214,10 +220,10 @@ a:active.nav-link {
 }
 
 @media (min-width: 768px) {
-    .parrent {
+.parrent {
     float: left;
     position: relative;
-    width: 29%;
+    width: 30%;
     background-color: #FFF;
     padding: 10px;
     border-top:7px solid rgb(204, 163, 82);
@@ -231,9 +237,9 @@ a:active.nav-link {
     background-color: white;
     border-radius: 50%;
     text-align: center;
-   box-shadow: 2px 2px 20px gray;
+    box-shadow: 2px 2px 20px gray;
     top: -35px;
-   left: 41%;
+    left: 41%;
 }
 .child  span{
     position: absolute;
@@ -268,6 +274,15 @@ a:active.nav-link {
 
 /* Start of Introduction of JTE Recruit, information and brief details */
 
+@media (min-width: 768px) {
+#services-text {
+    order:2;
+    }
+#accordion-id {
+    order:1;
+    }
+}
+
 #first-sec {
     background-color:rgb(33, 255, 249, 0.5);
     border-radius:20%;
@@ -287,11 +302,6 @@ h1 {
 hr {
     border: 1px solid #cca352;
     width: 75%;
-}
-
-.numbers {
-    margin-top: 40px;
-    text-align: center;
 }
 
 #services-sec {
