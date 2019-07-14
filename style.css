@@ -138,10 +138,74 @@ a:active.nav-link {
     animation-timing-function: ease;
 }
 
-
-
 /* End of CSS for numbers */
 
+/* Start of testimonial CSS*/
+
+#testimonial {
+    background-color:grey;
+}
+
+
+.main{
+    overflow: hidden;
+    padding: 50px;
+    width: 1000px;
+    text-align: center;
+    margin: 10px auto;
+}
+.parrent{
+    float: left;
+    position: relative;
+    width: 29%;
+    background-color: #FFF;
+    padding: 10px;
+    border-top:7px solid #D2652D;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.child{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+   box-shadow: 2px 2px 20px gray;
+    top: -35px;
+   left: 41%;
+}
+.child  span{
+    position: absolute;
+    font-size: 80px;
+    top: -105%;
+    left:19%;
+    font-family:fantasy;
+    font-weight: bold;
+    color:#D2652D;
+}
+.child-two p:nth-of-type(1){
+    color: #AFABC3;
+    line-height: 1.2;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.child-two h3{
+    color: #4A5866;
+    font-family:sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+.child-two p:nth-of-type(2){
+    color:#CECECE;
+    margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+
+
+
+/* End of testimonial CSS*/
 
 /* Start of Introduction of JTE Recruit, information and brief details */
 
