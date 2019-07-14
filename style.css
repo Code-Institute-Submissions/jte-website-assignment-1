@@ -13,33 +13,33 @@ body, html {
 
 /* Start of navbar CSS */
 
-/*This is for JTE logo*/
-@media (min-width: 768px) {
-    .img-fluid {
-    max-width: 40%;
-    height: auto;
+    /*This is for JTE logo*/
+    @media (min-width: 768px) {
+        .img-fluid {
+        max-width: 40%;
+        height: auto;
+        }
     }
-}
 
 
-.navbar {
-    position:fixed;
-    z-index:1030;
-    background-color:white;
-}
+    .navbar {
+        position:fixed;
+        z-index:1030;
+        background-color:white;
+    }
 
 /* This is the part below nav, to ensure it will show */
-@media (max-width: 768px) {
-    #first-part {
-        padding-top:20%;
+    @media (max-width: 768px) {
+        #first-part {
+            padding-top:20%;
+        }
     }
-}
 
-@media (min-width: 768px) {
-    #first-part {
-        padding-top:10%;
+    @media (min-width: 768px) {
+        #first-part {
+            padding-top:10%;
+        }
     }
-}
 
 /* This is the end for this styling */
 
@@ -80,6 +80,19 @@ a:active.nav-link {
 .align-self-center.p-3 {
     text-align: center;
 }
+
+#employer {
+    position:relative;
+}
+
+.img2 {
+    animation-timing-function: ease;
+}
+
+/*@keyframes mymove {*/
+/*  from {left: 0px;}*/
+/*  to {left: 300px;}*/
+/*}*/
 
 .img-fluid-employer {
     width:100%;
