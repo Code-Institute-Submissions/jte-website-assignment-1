@@ -406,13 +406,13 @@ span {
 @media (min-width:576px) and (max-width: 768px) {
     .video1 {
         text-align:center;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
         height: 200px;
     }
 
     .video2 {
         text-align:center;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
         height: 200px;
     }
 } 
@@ -439,16 +439,14 @@ span {
 
 @media (min-width: 992px) {
     .video1 {
-        padding-left:1%;
-        padding-right:1%;
+        margin-right: 5%;
         width: 450px;
         height:300px;
         margin-bottom: 10%;
     }
     
     .video2 {
-        padding-left:1%;
-        padding-right:1%;
+        margin-left: 5%;
         width: 450px;
         height:300px;
         margin-bottom: 10%;
@@ -457,6 +455,7 @@ span {
 
 .career-link {
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .career-link a {
