@@ -464,7 +464,16 @@ span {
 
 .footlogo {
     text-align:center;
+}
+
+.social-icon {
     margin-bottom: 10%;
+    text-align: center;
+}
+
+.fab {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .img-fluid {
@@ -493,6 +502,8 @@ span {
         text-align: center;
     }
 }
+
+
 
 /* End of footer CSS */
 
