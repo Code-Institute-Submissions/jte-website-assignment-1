@@ -386,10 +386,6 @@ span {
 
 /* Start of Join Us CSS */
 
-#services-sec {
-    width: 100%;
-}
-
 .join-us h1 {
     color: rgb(204, 163, 82);
 }
@@ -411,31 +407,26 @@ span {
 
 }
 
-@media (min-width:576) and (max-width: 768px) {
+@media (min-width:576px) and (max-width: 768px) {
     .video1 {
         text-align:center;
         margin-bottom: 5%;
-        margin-left:15%;
     }
 
     .video2 {
         text-align:center;
         margin-bottom: 5%;
-        margin-left:15%;
     }
 } 
 
-
-@media (min-width: 1000px) {
-    #video {
-        text-align: center;
-    }
+@media (min-width:768px) and (max-width:992px) {
     .video1 {
         padding-left:1%;
         padding-right:1%;
         width: 550px;
         height:300px;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
+        margin-left: 5%;
     }
     
     .video2 {
@@ -443,7 +434,26 @@ span {
         padding-right:1%;
         width: 550px;
         height:300px;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width: 992px) {
+    .video1 {
+        padding-left:1%;
+        padding-right:1%;
+        width: 550px;
+        height:300px;
+        margin-bottom: 10%;
+    }
+    
+    .video2 {
+        padding-left:1%;
+        padding-right:1%;
+        width: 550px;
+        height:300px;
+        margin-bottom: 10%;
     }
 }
 
