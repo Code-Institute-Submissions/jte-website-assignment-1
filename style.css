@@ -28,7 +28,7 @@ body {
     
     @media (min-width: 768px) {
         .jtelogo {
-        max-width: 35%;
+        max-width: 35%!important;
         height: auto;
         }
     }
@@ -369,8 +369,8 @@ span {
     .ind-icon {
         width:50px;
         height:50px;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 4%;
+        margin-right: 4%;
         margin-bottom: 5%;
         transition: transform .2s;
         }
@@ -403,19 +403,17 @@ span {
     margin-bottom: 5%;
 }
 
-.video2 {
-
-}
-
 @media (min-width:576px) and (max-width: 768px) {
     .video1 {
         text-align:center;
         margin-bottom: 5%;
+        height: 200px;
     }
 
     .video2 {
         text-align:center;
         margin-bottom: 5%;
+        height: 200px;
     }
 } 
 
@@ -443,7 +441,7 @@ span {
     .video1 {
         padding-left:1%;
         padding-right:1%;
-        width: 550px;
+        width: 450px;
         height:300px;
         margin-bottom: 10%;
     }
@@ -451,12 +449,24 @@ span {
     .video2 {
         padding-left:1%;
         padding-right:1%;
-        width: 550px;
+        width: 450px;
         height:300px;
         margin-bottom: 10%;
     }
 }
 
+.career-link {
+    text-align: center;
+}
+
+.career-link a {
+    color: #cca352;
+    transition: transform .2s;
+}
+
+.career-link a:hover {
+    transform: scale(2)!important;
+}
 
 /* End of Join Us CSS */
 
@@ -464,10 +474,10 @@ span {
 
 .footlogo {
     text-align:center;
+    margin-bottom: 10%;
 }
 
 .social-icon {
-    margin-bottom: 10%;
     text-align: center;
 }
 
@@ -475,41 +485,6 @@ span {
     margin-left: 5%;
     margin-right: 5%;
 }
-
-.img-fluid {
-    max-width: 40%!important;
-}
-
-@media (max-width: 768px) {
-    #footer-max-768 {
-        text-align:center;
-        margin-bottom: 10%;
-    }
-    #footer-max-768 h6 {
-        margin-bottom: 5%;
-    }
-    
-    #contact-us {
-        text-align: center;
-        margin-bottom: 10%;
-    }
-    
-    #contact-us h6 {
-        margin-bottom: 5%;
-    }
-    
-    .copyright {
-        text-align: center;
-    }
-}
-
-
-
-/* End of footer CSS */
-
-
-
-
 
 a {
     color:black;
@@ -543,3 +518,68 @@ a:hover {
 #insta {
     color:black;
 }
+
+/*This is for footer logo*/
+
+@media (max-width: 768px) {
+    .img-fluid.footjte {
+    max-width: 40%;
+    }
+    
+    #footer-max-768 {
+        text-align:center;
+        margin-bottom: 10%;
+    }
+    #footer-max-768 h6 {
+        margin-bottom: 5%;
+    }
+    
+    #contact-us {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    
+    #contact-us h6 {
+        margin-bottom: 5%;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    #footer {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    
+    .foot-h6 {   
+        text-align: left;
+        margin-bottom: 5%;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
+    
+    .footlogo {
+        order: 3;
+    }
+    
+    #contact-us {
+        order: 2;
+    }
+    
+    #footer-max-768 {
+        order: 1;
+    }
+    
+    .img-fluid.footjte {
+        width: 70%;
+    }
+}
+
+/* End of footer CSS */
