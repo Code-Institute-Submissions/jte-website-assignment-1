@@ -19,7 +19,7 @@ body {
 
     /*This is for JTE logo*/
     @media (max-width: 768px) {
-        .img-fluid {
+        .jtelogo {
         max-width: 50%!important;
         height: auto;
         }
@@ -27,7 +27,7 @@ body {
     
     
     @media (min-width: 768px) {
-        .img-fluid {
+        .jtelogo {
         max-width: 35%;
         height: auto;
         }
@@ -460,22 +460,45 @@ span {
 
 /* End of Join Us CSS */
 
-.img3 {
-    min-width: 50%;
+/* Start of footer CSS */
+
+.footlogo {
+    text-align:center;
+    margin-bottom: 10%;
 }
 
-.img-fluid.sec-img {
-    border-radius: 50px;
+.img-fluid {
+    max-width: 40%!important;
 }
 
-.d-block.w-100 {
-    border-radius: 50px;
+@media (max-width: 768px) {
+    #footer-max-768 {
+        text-align:center;
+        margin-bottom: 10%;
+    }
+    #footer-max-768 h6 {
+        margin-bottom: 5%;
+    }
+    
+    #contact-us {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    
+    #contact-us h6 {
+        margin-bottom: 5%;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
 }
 
+/* End of footer CSS */
 
-#footlinkspace2 {
-    margin-left:15%;
-}
+
+
+
 
 a {
     color:black;
@@ -508,14 +531,4 @@ a:hover {
 
 #insta {
     color:black;
-}
-
-
-
-.footer {
-    background-image: url("images/call-us.jpg");
-/*    background-position: 90% 50%;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: contain;*/
-    min-height: 100%;
 }
