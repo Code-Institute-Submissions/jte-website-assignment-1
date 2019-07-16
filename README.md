@@ -57,16 +57,36 @@ Technologies used:
 -CSS (To create animation for icons and design of the webpage)
 
 
+Testing
+
+For the testing of the webpage, i have personally go through clicking and checking of the various links and screen sizing.
+Additional i have engage 2 more friend of mine to go through the webpage, go the links are working fine only the bottom links at the contact us are not working as i did not add in the pages for it yet.
+
+Other than the functionality of the webpage, i have gather feedback from 15 friends aging from 24 years to 35 years old on the layout and colors of the webpage.
+They have read through all the information and instructions of how to send email, the feedback received are generally positive.
+
+Also on the testing, i have used HTMLhint (https://htmlhint.io) and CSSLink (http://csslint.net) to test on the codes for my webpage to ensure no bug or errors.
+
+Next i focus on the mobile visual a lot, hence you may try to play around with the screen size which i have try it on various size to ensure i make it responsive.
+The main issue i face was the video section of Join us, even up to this stage i am not able to fix the alignment of the video to be in center when my screen size is in the tablet size.
+For this case i have use margin to make it center.
+
+The links at contact us are left deliberately not link to any page or parts of the webpage, as it is left for future upgrade.
+
+
+Deployment
+
+For deployment of the webpage i have been using Github.
+Which i have commit on regularly basis to keep my code safe and up to date. Github assist and ensure my project able to run smoothly as if there are any major error or bugs i can upload from the last version.
+
+
+Credits
+
+Content of the webpage is mostly by me.
+
+For the testiomial part, i used the html & css code from this:  https://codepen.io/OsamaNasr/pen/bZxEvK
+
+I received inspiration for this project from BGC Recruitment.
 
 
 
-
-
-
-
-Use table formate will be good. Clearer.
-Choice of colors.
-Choice of images.
-
-
-List down scope of the project in point form
